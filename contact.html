@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Logan Allen Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="js/headerStyle.css" rel="stylesheet" type="text/css">
+<link href="js/imageStyle.css" rel="stylesheet" type="text/css">
+<link href="js/columnStyle.css" rel="stylesheet" type="text/css">
+<link href="js/socialButtonStyle.css" rel="stylesheet" type="text/css">
+<link href="js/menuButtonStyle.css" rel="stylesheet" type="text/css">
+<!-- <link href="js/contactStyle.css" rel="stylesheet" type="text/css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html, p {
+  height: 100%;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: #59a233;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--Top Nav -->
+<div class="bg">
+  <div class="centerText">
+    <h1>Welcome</h1>
+  </div>
+  <div class="bg-img">
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <div class="fa">
+            <a href="https://www.linkedin.com/in/logan-allen-108b361a9/" class="fa fa-linkedin"></a>
+          </div>
+          <div class="fa">
+            <a href="mailto:loganbradleyallen@gmail.com" class="fa fa-google"></a>
+          </div>
+        </div>
+        <div id="button">
+          <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+    </div>
+  </div>
+  <!--Contact Me tab-->
+  <div class="full-height">
+    <div id="contactMe"class="row">
+      <h1>Contact Me</h1>
+      <div class="column2">
+        <p>details.....</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Scipt Functions -->
+<script>
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+</script>
+</body>
+</html>

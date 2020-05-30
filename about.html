@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Logan Allen Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="js/headerStyle.css" rel="stylesheet" type="text/css">
+<link href="js/imageStyle.css" rel="stylesheet" type="text/css">
+<link href="js/columnStyle.css" rel="stylesheet" type="text/css">
+<link href="js/socialButtonStyle.css" rel="stylesheet" type="text/css">
+<link href="js/menuButtonStyle.css" rel="stylesheet" type="text/css">
+<!-- <link href="js/contactStyle.css" rel="stylesheet" type="text/css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html, p {
+  height: 100%;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: #59a233;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+</style>
+</head>
+<body>
+
+
+<!--Top Nav -->
+<div class="full-height">
+  <div class="bg">
+  <div class="bg-img">
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <div class="fa">
+            <a href="https://www.linkedin.com/in/logan-allen-108b361a9/" class="fa fa-linkedin"></a>
+          </div>
+          <div class="fa">
+            <a href="mailto:loganbradleyallen@gmail.com" class="fa fa-google"></a>
+          </div>
+        </div>
+        <div id="button">
+          <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+    </div>
+  </div>
+  <!--About me tab-->
+    <div id="aboutMe"class="row">
+      <h1>Background and Skills</h1>
+      <div class="column2">
+        <p>Hi, my name is Logan and I'm from Australia. I'm currently studying a Bachelor of Infomation Technology with a Major in Computer Science along with Minors in Networks and Security, Data-Centric Computing and Web Development.
+        I have a passion for networks and cyber security. I have experience in HTML, CSS, Java, Python and C. If you like any of my work, please dont hesitate to contact me. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scipt Functions -->
+<script>
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>

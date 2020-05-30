@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Logan Allen Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="js/headerStyle.css" rel="stylesheet" type="text/css">
+<link href="js/imageStyle.css" rel="stylesheet" type="text/css">
+<link href="js/columnStyle.css" rel="stylesheet" type="text/css">
+<link href="js/socialButtonStyle.css" rel="stylesheet" type="text/css">
+<link href="js/menuButtonStyle.css" rel="stylesheet" type="text/css">
+<!-- <link href="js/contactStyle.css" rel="stylesheet" type="text/css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html, p {
+  height: 100%;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: #59a233;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.full-height {
+  height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!--Top Nav -->
+<div class="bg">
+  <div class="bg-img">
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <div class="fa">
+            <a href="https://www.linkedin.com/in/logan-allen-108b361a9/" class="fa fa-linkedin"></a>
+          </div>
+          <div class="fa">
+            <a href="mailto:loganbradleyallen@gmail.com" class="fa fa-google"></a>
+          </div>
+        </div>
+        <div id="button">
+          <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+    </div>
+  </div>
+  <!--Project Columns -->
+    <!--Recent Projects tab-->
+    <div id="myProjects"class="row">
+      <div class="column1">
+        <h1>Recent Projects</h1>
+      </div>
+    </div>
+    <!-- Start of my projects -->
+    <div id="projects" class="row">
+      <!--Web Development Project-->
+      <div class="column">
+        <div class="container2">
+          <img src="https://image.flaticon.com/icons/svg/2091/2091581.svg" alt="Data" class="image" style="width:100%; height:100%">
+          <div class="overlay">
+            <h2>Aus Gov Crime</h2>
+            <p>A uni project which involved a front and back end server to display the statistical data from the Australia Government Criminal records.</p>
+            <a href="https://github.com/allenlogan/CAB230-WebDevelopment">
+              <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" alt="Github Photo" style="width:50px;height:50px">
+            </a>
+            </div>
+          </div>
+      </div>
+      <!--Data Mining Project-->
+        <div class="column">
+          <div class="container2">
+            <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fsarahwatts%2Ffiles%2F2019%2F02%2Fcrime-scene-1200x800.jpg" alt="Avatar" class="image" style="width:100%; height:100%">
+            <div class="overlay">
+              <h2>Data Mining</h2>
+              <p>A uni project which involved data and web analytics with a specific focus on; regression models, decision trees, neural networks, predicitive models, clustering analysis, association, text and mining.</p>
+              <a href="https://github.com/allenlogan/DataMining">
+                <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" alt="Github Photo" style="width:50px;height:50px">
+              </a>
+            </div>
+        </div>
+      </div>
+      <!--Platypus Webscraper Project-->
+        <div class="column">
+          <div class="container2">
+            <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fsarahwatts%2Ffiles%2F2019%2F02%2Fcrime-scene-1200x800.jpg" alt="Avatar" class="image" style="width:100%; height:100%">
+            <div class="overlay">
+              <h2>Platypus Webscraper</h2>
+              <p>A uni project which involved data and web analytics with a specific focus on; regression models, decision trees, neural networks, predicitive models, clustering analysis, association, text and mining.</p>
+              <a href="https://github.com/allenlogan/DataMining">
+                <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" alt="Github Photo" style="width:50px;height:50px">
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Scipt Functions -->
+<script>
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>
