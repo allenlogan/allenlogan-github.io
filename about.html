@@ -35,7 +35,6 @@ h1 {
 
 
 <!--Top Nav -->
-<div class="full-height">
   <div class="bg">
   <div class="bg-img">
     <div class="container">
@@ -56,15 +55,14 @@ h1 {
           <button class="openbtn" onclick="openNav()">☰ Menu</button>
         </div>
     </div>
-  </div>
-  <!--About me tab-->
-    <div id="aboutMe"class="row">
-      <h1>Background and Skills</h1>
-      <div class="column2">
-        <p>Hi, my name is Logan and I'm from Australia. I'm currently studying a Bachelor of Infomation Technology with a Major in Computer Science along with Minors in Networks and Security, Data-Centric Computing and Web Development.
-        I have a passion for networks and cyber security. I have experience in HTML, CSS, Java, Python and C. If you like any of my work, please dont hesitate to contact me. </p>
+    <!--About me tab-->
+      <div id="aboutMe"class="row">
+        <h1>Background and Skills</h1>
+        <div class="column2">
+          <p>Hi, my name is Logan and I'm from Australia. I'm currently studying a Bachelor of Infomation Technology with a Major in Computer Science along with Minors in Networks and Security, Data-Centric Computing and Web Development.
+          I have a passion for networks and cyber security. I have experience in HTML, CSS, Java, Python and C. If you like any of my work, please dont hesitate to contact me. </p>
+        </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -77,26 +75,6 @@ h1 {
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
-}
-
-//Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
 }
 
 </script>
