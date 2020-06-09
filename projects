@@ -1,0 +1,38 @@
+<div id="projects" class="row">
+  <!--Web Development Project-->
+  <div class="column">
+    <div class="container2">
+      <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fsarahwatts%2Ffiles%2F2019%2F02%2Fcrime-scene-1200x800.jpg" alt="Data" class="image" style="width:100%; height:100%">
+      <div class="overlay">
+        <a href="https://github.com/allenlogan/CAB230-WebDevelopment">
+          <h2>Aus Gov Crime</h2>
+        </a>
+        <p>A front and back end server to display the statistical data from the Australia Government Criminal records API.</p>
+        </div>
+      </div>
+  </div>
+  <!--Data Mining Project-->
+    <div class="column">
+      <div class="container2">
+        <img src="https://image.flaticon.com/icons/svg/2091/2091581.svg" alt="Avatar" class="image" style="width:100%; height:100%">
+        <div class="overlay">
+          <a href="https://github.com/allenlogan/DataMining">
+            <h2>Data Mining</h2>
+          </a>
+          <p>A uni project which involved data and web analytics.</p>
+        </div>
+    </div>
+  </div>
+  <!--Platypus Webscraper Project-->
+    <div class="column">
+      <div class="container2">
+        <img src="https://www.highpoint.com.au/Upload/Highpoint/Media/Store-Logo/HYPE-DC.png?width=250&height=161" alt="Avatar" class="image" style="width:100%; height:100%">
+        <div class="overlay">
+          <a href="https://github.com/allenlogan/HypeDCWebScraper">
+            <h2>HypeDC</h2>
+          </a>
+          <p>A quick project made to display the current shoes on hypedc.com.au. See the shoes for men, women, kids and items on sale.</p>
+        </div>
+    </div>
+  </div>
+</div>
