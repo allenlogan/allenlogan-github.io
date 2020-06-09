@@ -1,9 +1,7 @@
 /*Image overlay CSS */
 .container2 {
   position: relative;
-  width: 70%;
-  padding-left: 8%;
-  padding-top: 2%;
+  width: 60%;
 }
 
 .image {
@@ -13,9 +11,8 @@
 
 .overlay {
   position: absolute;
-  padding-top: 2%;
+  padding-top: 1%;
   bottom: 0;
-  padding-left: 8%;
   right: 0;
   height: 100%;
   width: 100%;
@@ -25,7 +22,7 @@
 }
 
 .container2:hover .overlay {
-  opacity: .8;
+  opacity: .9;
 }
 
 .text {
