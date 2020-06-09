@@ -3,18 +3,16 @@
   box-sizing:border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 19.3%;
-  padding: 20px;
+  width: 20%;
+  padding: 10px;
   height: 300px;
   text-align: center;
-  font-size: 15px;
-  margin-bottom: 1%;
-  margin-top: 1%;
+  font-size: 13px;
   margin-right: -8%;
-  margin-left: 14%;
+  margin-left: 7%;
   color: white;
 
 }
@@ -33,7 +31,7 @@
   color: white;
 }
 
-/* Create one equal column */
+/* Create two equal column */
 .column2 {
   float: left;
   width: 38%;
